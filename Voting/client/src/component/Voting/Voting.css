@@ -1,0 +1,43 @@
+.voting-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.voting-table th,
+.voting-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.voting-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.voting-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.vote-btn {
+  background: linear-gradient(to right, #4caf50, #45a049);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.vote-btn:hover {
+  background: linear-gradient(to right, #3e8e41, #388e3c);
+}
+
+.vote-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+.main a{
+  color: black;
+}

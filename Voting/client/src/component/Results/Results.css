@@ -1,0 +1,112 @@
+/* General Table Styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Container for the winner information */
+.container-winner {
+  transition: ease all 0.75s;
+  background-color: #f5fffa;  /* Light sea green background */
+  border-radius: 7px;
+  width: 700px;
+  padding: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  overflow: auto;
+}
+
+/* Slogan styling */
+.winner-slogan {
+  padding: 7px 7px 7px 1px;
+  color: #ccab00;  /* Gold color for the slogan */
+  font-size: 1.5em;
+  margin: 7px 0px;
+  text-align: justify;
+  overflow: auto;
+}
+
+/* Winner info styling */
+.winner-info {
+  width: 73%;
+  max-height: 150px;
+  display: inline-block;
+  margin-right: 1%;
+  overflow: auto;
+}
+
+/* Vote styling */
+.winner-votes {
+  width: 25%;
+  padding: 3px;
+  display: inline-block;
+  margin-left: 1%;
+}
+
+/* Tag styling */
+.winner-tag {
+  text-align: left;
+  color: hotpink;
+}
+
+.votes-tag {
+  text-align: left;
+  color: darkgray;
+}
+
+/* Vote count styling */
+.vote-count {
+  margin-top: 11px;
+  padding: 3px;
+  font-size: 57px;
+  overflow-y: auto;
+  text-align: center;
+}
+
+/* Responsive media queries */
+@media all and (max-width: 850px) {
+  .container-winner {
+    width: 700px;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .container-winner {
+    width: 600px;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .container-winner {
+    width: 400px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .container-winner {
+    width: 300px;
+  }
+}
+.chart-container {
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+  height: 400px;
+}
+
+/* .container-item{
+  background-color: white;
+  border: 0;
+} */

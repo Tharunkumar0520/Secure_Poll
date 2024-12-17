@@ -1,0 +1,67 @@
+.signup-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: linear-gradient(to right, #ffffff, #e8e8e8);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  background: #FF8383;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background: #F72C5B;
+}
+
+button[type="back"] {
+  display: block;
+  margin: 10px auto 0;
+  background: linear-gradient(to right, #ffffff, #f0f0f0);
+  color: #333;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+button[type="back"]:hover {
+  background: linear-gradient(to right, #e8e8e8, #dcdcdc);
+  color: #000;
+}
+
+#signup {
+  text-align: center;
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
