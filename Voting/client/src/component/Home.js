@@ -233,12 +233,12 @@ export default class Home extends Component {
                       </label>
 
                       <label className="label-home">
-                        Job Title or Position{" "}
+                        Autherization ID{" "}
                         {errors.adminTitle && <EMsg msg="*required" />}
                         <input
                           className="input-home"
                           type="text"
-                          placeholder="Job Title"
+                          placeholder="Authorization ID"
                           {...register("adminTitle", {
                             required: true,
                           })}
