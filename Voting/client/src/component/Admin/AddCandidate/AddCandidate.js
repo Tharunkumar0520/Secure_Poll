@@ -166,8 +166,8 @@ export function loadAdded(candidates) {
             <thead>
               <tr>
                 <th>Candidate ID</th>
-                <th>Header</th>
-                <th>Slogan</th>
+                <th>Candidate Name</th>
+                <th>Party Name</th>
               </tr>
             </thead>
             <tbody>
